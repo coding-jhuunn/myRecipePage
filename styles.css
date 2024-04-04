@@ -53,13 +53,12 @@ body {
   margin-bottom: 20px;
   font-size: 18px;
   padding: 0px 25px 0px 25px;
+  text-align: justify;
 }
 .preparationDiv {
   margin: 0px 25px 0px 25px;
-
   border-radius: 15px;
   background-color: var(--roseWhite);
-
   margin-bottom: 20px;
   padding: 25px 25px 25px 40px;
 }
@@ -92,6 +91,7 @@ span {
 }
 .listing > li {
   margin: 10px 0;
+  text-align: justify;
 }
 .coloredListing::marker {
   color: var(---nutmeg);
@@ -148,5 +148,13 @@ td {
     height: 100%;
     width: 100%;
     border-radius: 15px;
+  }
+
+  .attribution {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
   }
 }

@@ -1,0 +1,129 @@
+:root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark: hsl(332, 51%, 32%);
+  --white: hsl(0, 0%, 100%);
+  --roseWhite: hsl(330, 100%, 98%);
+  -eggshell: hsl(30, 54%, 90%);
+  --lightgrey: hsl(30, 18%, 87%);
+  --wengbrown: hsl(30, 10%, 34%);
+  --darkCharcoal: hsl(24, 5%, 18%);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Outfit", sans-serif;
+  background-color: var(--roseWhite);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.young-serif-regular {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+main {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  margin: 50px 50px 50px 0px;
+  padding: 30px 25px 30px 25px;
+  border-radius: 15px;
+}
+.omeletePic-div {
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+#omelette {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+}
+.title {
+  margin-bottom: 10px;
+}
+.details {
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-stretch: expanded;
+}
+.preparationDiv {
+  border-radius: 15px;
+  background-color: var(--roseWhite);
+
+  margin-bottom: 20px;
+  padding: 25px 25px 25px 40px;
+}
+.prepartionTitle {
+  color: var(--dark);
+}
+.prepartionList {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+.prepartionList > li {
+  margin: 10px 0;
+}
+span {
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+.box {
+  border-bottom: 3px solid var(--lightgrey);
+}
+.titleDiv {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--nutmeg);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.listing {
+  padding: 0px 0px 20px 25px;
+}
+.listing > li {
+  margin: 10px 0;
+}
+.coloredListing::marker {
+  color: var(---nutmeg);
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0 10px;
+}
+tr {
+  border-bottom: 1px solid var(--lightgrey);
+}
+td {
+  padding: 8px;
+}
+.amount {
+  color: var(--nutmeg);
+}
+
+.attribution {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
